@@ -1,0 +1,26 @@
+{
+  "name": "nodeexpress-handlebars",
+  "version": "1.0.0",
+  "description": ". ├── config │   ├── connection.js │   └── orm.js │  ├── controllers │   └── burgers_controller.js │ ├── db │   ├── schema.sql │   └── seeds.sql │ ├── models │   └── burger.js │  ├── node_modules │  ├── package.json │ ├── public │   └── assets │       ├── css │       │   └── burger_style.css │       └── img │           └── burger.png │    │ ├── server.js │ └── views     ├── index.handlebars     └── layouts         └── main.handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-code92/NodeExpress-Handlebars.git"
+  },
+  "author": "Nikddimos Gebregiorgis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-code92/NodeExpress-Handlebars/issues"
+  },
+  "homepage": "https://github.com/Nick-code92/NodeExpress-Handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars-helper-css": "^0.1.0",
+    "mysql": "^2.18.1"
+  }
+}
